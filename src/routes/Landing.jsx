@@ -7,6 +7,7 @@ import Features from '../components/Features'
 import Adverts from '../components/Adverts'
 import Testimonials from '../components/Testimonials'
 import Cta from '../components/Cta'
+import Footer from '../components/Footer'
 
 function Landing() {
   return (
@@ -18,6 +19,7 @@ function Landing() {
         <Adverts/>
         <Testimonials/>
         <Cta/>
+        <Footer/>
     </>
   )
 }

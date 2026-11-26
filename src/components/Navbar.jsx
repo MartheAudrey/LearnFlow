@@ -19,12 +19,12 @@ function Navbar() {
         {/*Desktop menu */}
         <div className="">
           <ul className=" hidden md:flex gap-8">
-            <li><a href="#about">About</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about" className='hover:text-safron-yellow duration-200'>About</a></li>
+            <li><a href="#features" className='hover:text-safron-yellow duration-200'>Features</a></li>
+            <li><a href="#pricing" className='hover:text-safron-yellow duration-200'>Pricing</a></li>
           </ul>
         </div>
-        <Link to="/signup" className="hidden md:block text-safron-yellow border border-safron-yellow py-2 px-3 rounded-3xl">
+        <Link to="/signup" className="hidden md:block text-safron-yellow border border-safron-yellow py-2 px-3 rounded-3xl transition-all duration-200 ease-in-out hover:text-eerie-black hover:bg-safron-yellow hover:font-bold">
           Let's start your learning journey
         </Link>
         {/*Mobile menu button*/}

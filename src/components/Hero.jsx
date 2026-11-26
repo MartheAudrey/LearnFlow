@@ -10,7 +10,7 @@ function Hero() {
     <div className=" relative bg-eerie-black pt-12 px-6 text-center grid gap-4 md:gap-6">
         <h1 className="text-white font-bold text-3xl md:text-6xl max-w-3xl md:mx-auto">The free, fun, and effective way to learn a language</h1>
         <p className="text-dark-gray">Learn at your own pace with lifetime access on mobile and desktop.</p>
-        <Link to="/signup" className="bg-safron-yellow w-fit mx-auto py-2 px-4 rounded-xl font-bold">
+        <Link to="/signup" className="bg-safron-yellow w-fit mx-auto py-2 px-4 rounded-xl font-bold transition-all duration-200 ease-in-out hover:bg-cornflower-blue hover:text-white">
             Start a new course!
         </Link>
         <div className="flex items-center -space-x-2 justify-center">
